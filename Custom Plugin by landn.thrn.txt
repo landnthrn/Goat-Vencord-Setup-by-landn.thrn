@@ -1,5 +1,0 @@
-Smart Mute Spam Feature — the perfect meet in the middle for stopping annoying notifications, 
-while also feeling like you aren't missing out. Everything is customizable to your liking. Inspired by OnePingPerDM created by proffdea.
-
-Download:
-https://github.com/landnthrn/Vencord-Configurations-by-landn.thrn/tree/main/Vencord%20Configurations%20by%20landn.thrn
