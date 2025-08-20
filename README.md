@@ -2,3 +2,6 @@
 Enjoy the best Vencord setups (Modded Discord) with different variations for different purposes
 
 Super duper simple to import
+
+Vencord for Discord Download Link:  
+https://vencord.dev
