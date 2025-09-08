@@ -3,13 +3,13 @@
 Enjoy the best Vencord setups (Modded Discord) with different variations for different purposes
 
 **Vencord for Discord Download Link:**  
-https://vencord.dev
+[https://vencord.dev](https://vencord.dev)
 
-**Vencord Github**
-https://github.com/Vendicated/Vencord
+**Vencord GitHub:**  
+[https://github.com/Vendicated/Vencord](https://github.com/Vendicated/Vencord)
 
 **Vencord Discord Server:**  
-https://discord.gg/xymWt9QRbp
+[https://discord.gg/xymWt9QRbp](https://discord.gg/xymWt9QRbp)
 
 ---
 
