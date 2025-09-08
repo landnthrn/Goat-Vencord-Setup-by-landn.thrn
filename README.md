@@ -5,6 +5,9 @@ Enjoy the best Vencord setups (Modded Discord) with different variations for dif
 **Vencord for Discord Download Link:**  
 https://vencord.dev
 
+**Vencord Github**
+https://github.com/Vendicated/Vencord
+
 **Vencord Discord Server:**  
 https://discord.gg/xymWt9QRbp
 
