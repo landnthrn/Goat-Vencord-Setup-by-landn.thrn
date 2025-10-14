@@ -1,0 +1,162 @@
+/**
+ * @name Discordia TWEAKED 3
+ * @author ungiglio
+ * @version 1.1.1
+ * @source https://github.com/ungiglio/DiscordDiscordia/
+ * @website https://ungiglio.github.io/DiscordDiscordia/
+ * @description Lande della Discordia implements a glass purple and lightblue details on your client!
+ * @authorId 769144538107215872
+ * @invite DDaRdZwB4h
+*/
+
+@import url("https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/v2.awkglass.css"); /* standard edition */
+/*@import url("https://ungiglio.github.io/DiscordDiscordia/BACKGROUNDLESS/backgroundless.css"); /* backgroundless edition */
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_mentions/mentions.css"); /* credits to davart154 for the original code */
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_userlist/userlist.css");
+@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/title_bar/custom_title.css"); /* comment/remove to bring back server icon and name in topbar */
+
+/* CUSTOMIZATION CONTROL CENTER */
+:root {
+  --rgb-highlight: 178, 102, 255;                          /* The main highlight color */
+  --rgb-close-button: 224, 58, 62;                         /* Close / deny */
+  --rgb-online-color: 171, 135, 255;                       /* Online dot */
+  --rgb-afk-color: 145, 97, 255;                           /* Idle dot */
+  --rgb-dnd-color: 224, 58, 62;                            /* DND dot */
+  --rgb-streaming-color: 145, 97, 255;                     /* Streaming dot */
+  --status-danger-rgb: rgb(152, 51, 255);                  /* Danger actions */
+
+  --transition-time: .3s;
+
+  --custom-title-font-size: 14px;
+  --custom-title-font-family: "Pirata One", var(--font-primary);
+
+  --custom-channel-header-color: rgb(223, 205, 245);
+  --custom-channel-icon: rgb(132, 117, 186);
+  --channel-icon: rgb(127, 117, 186) !important;
+  --custom-selected-channel-color: rgb(77, 209, 189);
+  --cat-custom-color-rgba: 134, 119, 166;
+  --cat-custom-color: rgb(var(--cat-custom-color-rgba));
+
+  --custom-spoiler-color: rgb(148, 83, 212)!important;
+
+  --darkPurple-background: rgb(26, 0, 59);
+
+  --custom-image-url: url('https://i.imgur.com/43CT9S3.jpeg');
+  --app-blur: 5.5px;
+
+  /* Home icon image (use encoded URL; this one displays directly) */
+  --custom-logo: url("https://raw.githubusercontent.com/landnthrnnn/DUMP/refs/heads/main/TrippyDiscordIconGIF.gif");
+  --custom-logo-hover: url("https://raw.githubusercontent.com/landnthrnnn/DUMP/refs/heads/main/TrippyDiscordIconGIF.gif");
+
+  /* FONTS */
+  --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-display: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-headline: 'ABC Ginto Nord', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-code: 'gg mono', 'Source Code Pro', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
+  --font-clan-body: Fraunces, 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-clan-signature: Corinthia, 'gg sans', cursive, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-display-marketing: 'ABC Ginto Nord', 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Force delete (trash) icon color */
+[aria-label="Delete"]:not(:hover) svg,
+[aria-label="Delete"]:not(:hover) svg path {
+  color: #AB87FF !important;
+  fill:  #AB87FF !important;
+}
+
+/* Keep hover/click as danger red */
+[aria-label="Delete"]:hover svg,
+[aria-label="Delete"]:hover svg path {
+  color: #E03A3E !important;
+  fill:  #E03A3E !important;
+}
+
+/* --- Home icon (Discord logo slot): keep image, remove purple tint/hover --- */
+
+/* ensure the custom logo draws and stays visible */
+[data-list-item-id="guildsnav___home"] [class*="childWrapper"] {
+  background-image: var(--custom-logo) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+
+  /* kill any color/tint without removing the image */
+  background-color: transparent !important;
+  box-shadow: none !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+  border-radius: 12px; /* optional */
+}
+
+/* hover/active: keep image, no purple background */
+[data-list-item-id="guildsnav___home"]:hover [class*="childWrapper"],
+[data-list-item-id="guildsnav___home"][aria-current="page"] [class*="childWrapper"] {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  background-image: var(--custom-logo-hover) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* --- Force non-status icons (game, mobile, etc.) to be purple --- */
+
+/* Game controller icon */
+[class*="activityIcon-"],
+[class*="activityIcon-"] svg,
+[class*="activityIcon-"] path {
+  color: rgb(145, 97, 255) !important;
+  fill:  rgb(145, 97, 255) !important;
+}
+
+/* Mobile phone icon */
+[class*="mobileIcon-"],
+[class*="mobileIcon-"] svg,
+[class*="mobileIcon-"] path {
+  color: rgb(145, 97, 255) !important;
+  fill:  rgb(145, 97, 255) !important;
+}
+
+/* Voice / streaming / screen share indicators */
+[class*="icon-"],
+[class*="icon-"] svg,
+[class*="icon-"] path {
+  color: rgb(145, 97, 255) !important;
+  fill:  rgb(145, 97, 255) !important;
+}
+
+/* ---- (Fixing a glitch with this one) Force every presence color to purple (rgb(171, 135, 255)) ---- */
+
+/* 1) Token-level overrides (covers most places) */
+:root {
+  --status-online: rgb(171, 135, 255) !important;
+  --status-idle: rgb(171, 135, 255) !important;
+  --status-dnd: rgb(171, 135, 255) !important;
+  --status-invisible: rgb(171, 135, 255) !important;
+  --status-offline: rgb(171, 135, 255) !important;
+  --status-streaming: rgb(171, 135, 255) !important;
+
+  /* If you still see green in a few spots, uncomment the next line.
+     It overrides Discord's generic "positive/green" token used by presence in some UIs. */
+  /* --status-positive: rgb(171, 135, 255) !important; */
+}
+
+/* 2) SVG fallback: force the actual dots/icons to purple regardless of state label */
+svg[aria-label="Online"] *,
+svg[aria-label="Idle"] *,
+svg[aria-label="Do Not Disturb"] *,
+svg[aria-label="Invisible"] *,
+svg[aria-label="Offline"] *,
+svg[aria-label="Streaming"] * {
+  fill: rgb(171, 135, 255) !important;
+  color: rgb(171, 135, 255) !important;
+}
+
+/* Bottom-left user panel sometimes uses a masked circle — catch that too */
+[class*="status"] svg *,
+[class*="profilePanel"] [class*="status"] *, 
+[class*="container"] [class*="status"] * {
+  fill: rgb(171, 135, 255) !important;
+  color: rgb(171, 135, 255) !important;
+}
