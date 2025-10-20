@@ -97,7 +97,7 @@ Try out your customized Discord icon!!
 
 ---
 
-**My tweaked Discordia theme files also supports GIF's and even transparent GIF's as well** 
+#### I tweaked Discordia theme to support GIF's and even transparent GIF's for Discord Icon  
 I recommend getting your GIF link using github,  
 
 Create a public github repo  
