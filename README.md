@@ -2,14 +2,11 @@
 
 Enjoy the best Vencord setups (Modded Discord) with different variations for different purposes
 
-**Vencord for Discord Download Link:**  
-[https://vencord.dev](https://vencord.dev)
+#### [Download Vencord for Discord](https://vencord.dev)
 
-**Vencord GitHub:**  
-[https://github.com/Vendicated/Vencord](https://github.com/Vendicated/Vencord)
+#### [Vencord GitHub](https://github.com/Vendicated/Vencord)
 
-**Vencord Discord Server:**  
-[https://discord.gg/xymWt9QRbp](https://discord.gg/xymWt9QRbp)
+#### [Vencord Discord](https://discord.gg/xymWt9QRbp)
 
 ---
 
@@ -35,7 +32,7 @@ Enjoy the best Vencord setups (Modded Discord) with different variations for dif
 
 - They should now show up in Themes for you to toggle on/off  
 
-If the themes aren't applying then try turning your Discord Nitro theme to dark default  
+**If the themes aren't applying then try turning your Discord Nitro theme to dark default**  
 
 ---
 
@@ -66,7 +63,7 @@ If the themes aren't applying then try turning your Discord Nitro theme to dark 
 
 - Select Load Missing Themes to refresh  
 
-Try out your customized Discordia theme!!  
+**Try out your customized Discordia theme!!**  
 
 ---
 
@@ -95,7 +92,7 @@ Try out your customized Discordia theme!!
 
 - Select Load Missing Themes to refresh  
 
-Try out your customized Discord icon!!  
+**Try out your customized Discord icon!!**  
 
 ---
 
@@ -114,7 +111,7 @@ I recommend getting your GIF link using github
 
 - Insert that link into the `--custom-logo:` url section of one of the TWEAKED Discordia theme files  
 
-Enjoy your GIF Discord Icon!!  
+**Enjoy your GIF Discord Icon!!**  
 
 ---
 
