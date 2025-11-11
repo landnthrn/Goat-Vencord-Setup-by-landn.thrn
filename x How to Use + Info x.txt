@@ -1,0 +1,161 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+VENCORD-CONFIGURATIONS-BY-LANDN.THRN
+
+Enjoy the best Vencord setups (Modded Discord) with different variations for different purposes  
+
+Download Vencord for Discord:  
+https://vencord.dev  
+
+Vencord GitHub:  
+https://github.com/Vendicated/Vencord  
+
+Vencord Discord:  
+https://discord.gg/xymWt9QRbp  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+HOW TO IMPORT SETTINGS:
+
+— Once you have Vencord installed  
+
+— Go to Discord settings, find Backup & Restore in the Vencord section of settings  
+
+— Import a Vencord profile setting of your choosing  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+HOW TO IMPORT THEMES:
+
+— Go to Discord Settings, find Themes in the Vencord section of settings  
+
+— Press Open Theme Folder  
+
+— Use one of the themes provided in this download, or find more with the link in the Themes folder  
+
+— Drag all the themes you want into the Themes folder  
+
+— Back on Vencord themes settings select Load Missing Themes  
+
+— They should now show up in Themes for you to toggle on/off  
+
+If the themes aren't applying then try turning your Discord Nitro theme to dark default  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+HOW TO TWEAK THE IMAGE OF DISCORDIA THEME:
+
+— Visit Imgur:  
+  https://imgur.com/upload  
+
+— Drag an image in  
+
+— Copy the IMAGE ADDRESS  
+
+— If the link shows "blob" in the beginning it's wrong,  
+  so wait a second for it to fully upload, it should look like https://i.imgur.com/...etc...  
+
+— Open the Discordia theme file with Notepad  
+
+— Press Ctrl + F to bring up the word search  
+
+— Word search for background image  
+
+— Simply replace the Imgur link already entered with yours  
+
+— You can also adjust the bluriness right beside this section  
+
+— Save file  
+
+— Go to Discord Settings > Themes in the Vencord section  
+
+— Select Load Missing Themes to refresh  
+
+Try out your customized Discordia theme!!  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+HOW TO CUSTOMIZE THE DISCORD ICON FOR DISCORDIA:
+
+— Visit Imgur:  
+  https://imgur.com/upload  
+
+— Drag an image in (square resolution recommended, like 512px by 512px)  
+
+— Copy the IMAGE ADDRESS  
+
+— If the link shows "blob" in the beginning it's wrong,  
+  so wait a second for it to fully upload, it should look like https://i.imgur.com/...etc...   
+
+— Open one of the TWEAKED Discordia theme files with Notepad  
+
+— Press Ctrl + F to bring up the word search  
+
+— Word search for --custom-logo: url  
+
+— Replace the link that's there with your Imgur link  
+
+— Save file  
+
+— Go to Discord Settings > Themes in the Vencord section  
+
+— Select Load Missing Themes to refresh  
+
+Try out your customized Discord icon!!  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+I tweaked Discordia theme to support GIF's and even transparent GIF's for Discord Icon  
+I recommend getting your GIF link using GitHub  
+
+— Create a public GitHub repo  
+
+— Upload the GIF into it  
+
+— Click the GIF file in the repo so you’re able to view it  
+
+— Right click on the GIF preview and Open in New Tab  
+
+— Copy the page link it should look like  
+  https://raw.githubusercontent.com/YOURGITHUBNAME/YOURREPONAME/refs/heads/main/NAMEOFYOURGIF.gif  
+
+— Insert that link into the --custom-logo: url section of one of the TWEAKED Discordia theme files  
+
+Enjoy your GIF Discord Icon!!  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Find more of my creations on Github:  
+https://github.com/landnthrn?tab=repositories  
+
+Support me on Buy Me a Coffee  
+https://buymeacoffee.com/landn.thrn  
+
+Paypal Donation:  
+https://www.paypal.com/donate/?hosted_button_id=K4PLHFVBH7X8C  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
